@@ -77,11 +77,10 @@ setup(
     # If there are data files included in your packages that need to be
     # installed, specify them here.  If using Python 2.6 or less, then these
     # have to be included in MANIFEST.in as well.
-    # include_package_data=True,
-    # package_data={
-    #     '': ['pip_example'],
-    #     'pip_example.scripts': ['./scripts/*.sh'],
-    # },
+    include_package_data=True,
+    package_data={
+        'scripts': ['*.sh'],
+    },
 
     scripts=['pip_example'],
 
