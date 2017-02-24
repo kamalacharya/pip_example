@@ -79,7 +79,7 @@ setup(
     # have to be included in MANIFEST.in as well.
     include_package_data=True,
     package_data={
-        '': [],
+        '': ['pip_example'],
         'pip_example.scripts': ['./scripts/*.sh'],
     },
 
