@@ -53,7 +53,7 @@ setup(
 
     # You can just specify the packages manually here if your project is
     # simple. Or you can use find_packages().
-    packages=[''],
+    packages=find_packages(),
 
     # Alternatively, if you want to distribute just a my_module.py, uncomment
     # this:
@@ -77,11 +77,11 @@ setup(
     # If there are data files included in your packages that need to be
     # installed, specify them here.  If using Python 2.6 or less, then these
     # have to be included in MANIFEST.in as well.
-    include_package_data=True,
-    package_data={
-        '': ['pip_example'],
-        'pip_example.scripts': ['./scripts/*.sh'],
-    },
+    # include_package_data=True,
+    # package_data={
+    #     '': ['pip_example'],
+    #     'pip_example.scripts': ['./scripts/*.sh'],
+    # },
 
     scripts=['pip_example'],
 
