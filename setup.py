@@ -18,7 +18,7 @@ setup(
     name='pip_example',
 
     # https://packaging.python.org/en/latest/single_source_version.html
-    version='1.0',
+    version='1.1',
 
     description='pip example',
     long_description=long_description,
