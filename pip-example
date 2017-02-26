@@ -1,6 +1,6 @@
 #!/usr/bin/env python2
 
-from scripts import pip_example
+from pip_example.scripts import pip_example
 
 if __name__ == '__main__':
     pip_example.main()
